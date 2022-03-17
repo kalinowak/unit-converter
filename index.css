@@ -1,4 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Inter', sans-serif;
 }
+
+.container {
+    margin: auto;
+    width: 550px;
+    height: 260px;
+    color: #fff;
+}
+
+.top {
+    background-image: linear-gradient(to right, #585DFE, #FB3796);
+    padding: 50px;
+    text-align: center;
+}
+
+.bottom {
+    background-color: #1F2937;
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 27px;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    font-size: 97.57px;
+    color: #fff;
+    font-weight: 800;
+    text-align: center;
+    cursor: pointer;
+}
+
+input:focus {
+    border: none;
+    background-color: rgb(31, 41, 55, .2);
+}
+
+button {
+    margin-top: 15px;
+    background-color: #1F2937;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 40px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #394555;
+}
+
+/* Remove the arrows from the number input field */
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }

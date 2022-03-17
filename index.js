@@ -1,4 +1,5 @@
 // DOM variables
+let mainHeading = document.getElementById("main-heading")
 let convertVal = document.getElementById("convert-value").value
 let calcBtn = document.getElementById("calc-btn")
 
@@ -13,7 +14,7 @@ let massCalc = document.getElementById("mass-calc")
 
 // Strings
 let appTitle = "Unit Converter"
-let mainHeading = "Metric/Imperial unit conversion"
+mainHeading.textContent = "Metric/Imperial unit conversion"
 
 // Set text content
 calcBtn.textContent = "Calculate"
