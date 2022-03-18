@@ -45,19 +45,19 @@ function convertNumber() {
 
     meter = convertVal
     feet = convertVal
-    let meterConverted = convertVal * 3.281
-    let feetConverted = convertVal / 3.281
+    let meterConverted = convertVal / 3.281
+    let feetConverted = convertVal * 3.281
     lengthCalc.textContent = meter + " meters = " + feetConverted.toFixed(3)  + " feet | " + feet + " feet = " + meterConverted.toFixed(3) + " meters"
     
     liters = convertVal
     gallons = convertVal
-    let litersConverted = convertVal * 3.281
-    let gallonsConverted = convertVal * 3.281
+    let litersConverted = convertVal * 3.785
+    let gallonsConverted = convertVal / 3.785
     volumeCalc.textContent = liters + " liters = " + gallonsConverted.toFixed(3)  + " gallons | " + gallons + " gallons = " + litersConverted.toFixed(3) + " liters"
 
     kilos = convertVal
     pounds = convertVal
-    let kilosConverted = convertVal * 3.281
-    let poundsConverted  = convertVal * 3.281
+    let kilosConverted = convertVal / 2.205
+    let poundsConverted  = convertVal * 2.205
     massCalc.textContent = kilos + " kilos = " + poundsConverted.toFixed(3)  + " pounds | " + pounds + " pounds = " + kilosConverted.toFixed(3) + " kilos"
 };
